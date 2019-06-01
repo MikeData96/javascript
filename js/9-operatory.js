@@ -49,3 +49,15 @@ if(fileExist == true && fileSize <= 50) {
 } else {
     console.log('Plik nie istnieje lub jest za duży');
 }
+
+let color1 = 'red';
+let color2 = 'blue';
+
+if(color1 == 'yellow' || color2 == 'blue') {
+    console.log('Poprawny kolor');
+} else {
+    console.log('Niepoprawny kolor');
+}
+
+let wynikColor = (color1 == 'black') ? 'kolor red' : 'kolor nie red';
+console.log(`UWAGA, wynik działania ${color1 == 'red' ? 'kolor red' : 'kolor nie red'}`);
