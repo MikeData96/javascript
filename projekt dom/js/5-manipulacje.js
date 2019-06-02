@@ -7,11 +7,12 @@ header.lastElementChild.innerHTML = 'Nowy tekst linka <br> tu moge wstawic znacz
 
 console.log('======================== classList ===========');
 console.log(header.classlist);
-header.classList.add('decor-headaer');
+header.classList.add('decor-header');
 
 setTimeout(
     () => {
         header.classList.remove('decor-header');
+        header.getElementsByClassName.backgroundColor ='yellow';
     },
     2000
 )
